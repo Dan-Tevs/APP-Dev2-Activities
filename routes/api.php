@@ -17,3 +17,14 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::middleware('extract.token')->group(function () {
+    Route::controller(PostController::class)->group(function () {
+        Route::get('/posts', 'index');
+        Route::get('/posts/{post}', 'show');
+        Route::post('/posts', 'store');
+        Route::put('/posts/{post}', 'update');
+        Route::patch('/posts/{post}', 'updateProfile');
+        Route::delete('/posts/{post}', 'destroy');
+    });
+});
