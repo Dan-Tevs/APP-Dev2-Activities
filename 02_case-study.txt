@@ -1,0 +1,18 @@
+Case Study #2
+
+Our IT company embarked on an ambitious project in January 2024 aimed at delivering a cutting-edge software solution to our users and clients. The project was meticulously planned with a target launch date of June 1. However, as the deadline approaches, it becomes apparent that several tasks are still in progress, and there are unresolved bugs that need attention. The testing process, crucial for ensuring product quality, has not yet begun. As a software engineer involved in the project, what aspects could have been handled better to prevent the delays and issues experienced, such as incomplete tasks, unresolved bugs, and a delayed testing process?
+
+For this activity, evaluate the situation and offer your suggestions on areas where improvements could have been made.
+
+Answer:
+
+Given the situation above these are some suggestions on areas where improvements could have been made:
+
+1. Planning and Managing Projects:
+More detailed objectives with clear deliverables and deadlines could make it easier to manage development and spot possible delays early on.
+
+2. Frequent observation and evaluation:
+Regular stand-up meetings and progress reviews can aid in spotting problems early and implementing solutions. Code can be constantly evaluated and integrated by implementing continuous integration and testing techniques, which lowers the likelihood of unsolved defects building up.
+
+3. Coordinating and Communicating:
+To avoid misunderstandings and guarantee that everyone is in agreement, team members should maintain open and transparent lines of communication.
